@@ -33,6 +33,15 @@ STATE = {
     data.State.MA: 'ma',
     data.State.MI: 'mi',
     data.State.TN: 'tn',
+    data.State.DE: 'de',
+    data.State.ME: 'me',
+    data.State.MT: 'mt',
+    data.State.ND: 'nd',
+    data.State.NH: 'nh',
+    data.State.RI: 'ri',
+    data.State.SD: 'sd',
+    data.State.VT: 'vt',
+    data.State.WY: 'wy',
 }
 
 Model = collections.namedtuple('Model', (
