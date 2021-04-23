@@ -332,9 +332,9 @@ MODELS2020 = [
     Model(State.FL, House.ushouse,      27,  True, '2020', 'data/FL/003-tilesdir'), # 56f7c85
     Model(State.FL, House.statesenate,  40,  True, '2020', 'data/FL/003-tilesdir'), # 56f7c85
     Model(State.FL, House.statehouse,  120,  True, '2020', 'data/FL/003-tilesdir'), # 56f7c85
-    Model(State.GA, House.ushouse,      14,  True, '2020', 'data/GA/003-tilesdir'), # 56f7c85
-    Model(State.GA, House.statesenate,  56,  True, '2020', 'data/GA/003-tilesdir'), # 56f7c85
-    Model(State.GA, House.statehouse,  180,  True, '2020', 'data/GA/003-tilesdir'), # 56f7c85
+    Model(State.GA, House.ushouse,      14,  True, '2021A', 'data/GA/004-2020'), # 9ab63ed
+    Model(State.GA, House.statesenate,  56,  True, '2021A', 'data/GA/004-2020'), # 9ab63ed
+    Model(State.GA, House.statehouse,  180,  True, '2021A', 'data/GA/004-2020'), # 9ab63ed
     Model(State.IA, House.ushouse,       4,  True, '2020', 'data/IA/001-tilesdir'), # bcf3dd1
     Model(State.IA, House.statesenate,  50,  True, '2020', 'data/IA/001-tilesdir'), # bcf3dd1
     Model(State.IA, House.statehouse,  100,  True, '2020', 'data/IA/001-tilesdir'), # bcf3dd1
@@ -344,9 +344,9 @@ MODELS2020 = [
     Model(State.IN, House.ushouse,       9,  True, '2020', 'data/IN/002-tilesdir'), # 45a92e3
     Model(State.IN, House.statesenate,  50,  True, '2020', 'data/IN/002-tilesdir'), # 45a92e3
     Model(State.IN, House.statehouse,  100,  True, '2020', 'data/IN/002-tilesdir'), # 45a92e3
-    Model(State.KS, House.ushouse,       5,  True, '2020', 'data/KS/001-tilesdir'), # bcf3dd1
-    Model(State.KS, House.statesenate,  40,  True, '2020', 'data/KS/001-tilesdir'), # bcf3dd1
-    Model(State.KS, House.statehouse,  125,  True, '2020', 'data/KS/001-tilesdir'), # bcf3dd1
+    Model(State.KS, House.ushouse,       5,  True, '2021A', 'data/KS/002-2020'), # 9ab63ed
+    Model(State.KS, House.statesenate,  40,  True, '2021A', 'data/KS/002-2020'), # 9ab63ed
+    Model(State.KS, House.statehouse,  125,  True, '2021A', 'data/KS/002-2020'), # 9ab63ed
     Model(State.KY, House.ushouse,       6,  True, '2020', 'data/KY/001-tilesdir'), # bcf3dd1
     Model(State.KY, House.statesenate,  38,  True, '2020', 'data/KY/001-tilesdir'), # bcf3dd1
     Model(State.KY, House.statehouse,  100,  True, '2020', 'data/KY/001-tilesdir'), # bcf3dd1
@@ -365,9 +365,9 @@ MODELS2020 = [
     Model(State.MI, House.ushouse,      14,  True, '2020', 'data/MI/003-tilesdir'), # 56f7c85
     Model(State.MI, House.statesenate,  38,  True, '2020', 'data/MI/003-tilesdir'), # 56f7c85
     Model(State.MI, House.statehouse,  110,  True, '2020', 'data/MI/003-tilesdir'), # 56f7c85
-    Model(State.MN, House.ushouse,       8,  True, '2020', 'data/MN/002-tilesdir'), # 57155ad
-    Model(State.MN, House.statesenate,  67,  True, '2020', 'data/MN/002-tilesdir'), # 57155ad
-    Model(State.MN, House.statehouse,  134,  True, '2020', 'data/MN/002-tilesdir'), # 57155ad
+    Model(State.MN, House.ushouse,       8,  True, '2021A', 'data/MN/003-2020'), # 9ab63ed
+    Model(State.MN, House.statesenate,  67,  True, '2021A', 'data/MN/003-2020'), # 9ab63ed
+    Model(State.MN, House.statehouse,  134,  True, '2021A', 'data/MN/003-2020'), # 9ab63ed
     Model(State.MO, House.ushouse,       8,  True, '2020', 'data/MO/002-tilesdir'), # 9f98656
     Model(State.MO, House.statesenate,  34,  True, '2020', 'data/MO/002-tilesdir'), # 9f98656
     Model(State.MO, House.statehouse,  163,  True, '2020', 'data/MO/002-tilesdir'), # 9f98656
@@ -389,9 +389,9 @@ MODELS2020 = [
     Model(State.NV, House.ushouse,       4,  True, '2020', 'data/NV/001-tilesdir'), # bcf3dd1
     Model(State.NV, House.statesenate,  21,  True, '2020', 'data/NV/001-tilesdir'), # bcf3dd1
     Model(State.NV, House.statehouse,   42,  True, '2020', 'data/NV/001-tilesdir'), # bcf3dd1
-    Model(State.OH, House.ushouse,      16,  True, '2020', 'data/OH/002-tilesdir'), # d9415c0
-    Model(State.OH, House.statesenate,  33,  True, '2020', 'data/OH/002-tilesdir'), # d9415c0
-    Model(State.OH, House.statehouse,   99,  True, '2020', 'data/OH/002-tilesdir'), # d9415c0
+    Model(State.OH, House.ushouse,      16,  True, '2021A', 'data/OH/001-2020'), # 9ab63ed
+    Model(State.OH, House.statesenate,  33,  True, '2021A', 'data/OH/001-2020'), # 9ab63ed
+    Model(State.OH, House.statehouse,   99,  True, '2021A', 'data/OH/001-2020'), # 9ab63ed
     Model(State.OK, House.ushouse,       5,  True, '2020', 'data/OK/001-tilesdir'), # 49ac5ef
     Model(State.OK, House.statesenate,  48,  True, '2020', 'data/OK/001-tilesdir'), # 49ac5ef
     Model(State.OK, House.statehouse,  101,  True, '2020', 'data/OK/001-tilesdir'), # 49ac5ef

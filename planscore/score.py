@@ -48,6 +48,17 @@ FIELD_NAMES = (
     'Household Income 2018', 'Household Income 2018, Margin',
     'Citizen Voting-Age Population 2018', 'Citizen Voting-Age Population 2018, Margin',
     
+    # ACS 2019 fields
+    'Black Population 2019', 'Black Population 2019, Margin',
+    'Hispanic Population 2019', 'Hispanic Population 2019, Margin',
+    'Population 2019', 'Population 2019, Margin',
+    'Voting-Age Population 2019', 'Voting-Age Population 2019, Margin',
+    #'Education Population 2019', 'Education Population 2019, Margin',
+    'High School or GED 2019', 'High School or GED 2019, Margin',
+    #'Households 2019', 'Households 2019, Margin',
+    'Household Income 2019', 'Household Income 2019, Margin',
+    'Citizen Voting-Age Population 2019', 'Citizen Voting-Age Population 2019, Margin',
+    
     # CVAP 2015 fields
     'Citizen Voting-Age Population 2015',
     'Citizen Voting-Age Population 2015, Error',
@@ -61,6 +72,7 @@ FIELD_NAMES = (
     
     # Fields for new unified, district-level plans
     'US President 2016 - DEM', 'US President 2016 - REP',
+    'US President 2020 - DEM', 'US President 2020 - REP',
     
     # Extra fields
     'US Senate 2016 - DEM', 'US Senate 2016 - REP',
@@ -367,8 +379,17 @@ def calculate_district_biases(upload):
     #with open('PBs.csv', 'w') as file:
     #    print('blue_seatshare,blue_voteshare', file=file)
     
-    if 'US President 2016 - DEM' not in upload.districts[0]['totals'] \
-    or 'US President 2016 - REP' not in upload.districts[0]['totals']:
+    has_president_votes = (
+        (
+            'US President 2016 - DEM' in upload.districts[0]['totals']
+            and 'US President 2016 - REP' in upload.districts[0]['totals']
+        ) or (
+            'US President 2020 - DEM' in upload.districts[0]['totals']
+            and 'US President 2020 - REP' in upload.districts[0]['totals']
+        )
+    )
+    
+    if not has_president_votes:
         # Skip everything if we don't see 2016 presidential votes
         return upload.clone()
     
